@@ -3,7 +3,7 @@ import React from "react";
 
 function about() {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center mt-10">
       <h1 className="text-3xl">Sobre o projeto: </h1>
       <p className="m-10 max-w-lg">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto

@@ -4,7 +4,7 @@ import Link from "next/link";
 function Navbar() {
   return (
     <nav
-      className={`flex items-center justify-between bg-blue-950 text-white white p-10`}
+      className={`flex items-center justify-between bg-blue-950 text-white white py-10  px-2 sm:px-10 `}
     >
       <Link
         href="/"
@@ -19,7 +19,7 @@ function Navbar() {
         <h1>PokeNext</h1>
       </Link>
 
-      <ul className={`flex  w-1/4 justify-evenly text-lg`}>
+      <ul className={`flex  w-1/2 sm:w-1/4 justify-evenly text-lg`}>
         <Link
           href="/"
           className={`transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:text-indigo-300 duration-300`}

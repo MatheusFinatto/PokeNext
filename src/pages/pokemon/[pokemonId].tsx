@@ -29,7 +29,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
 const PokemonData: React.FC<PokemonProps> = ({ pokemon }) => {
   return (
-    <div className="flex flex-col items-center w-full">
+    <div className="flex flex-col items-center w-full mb-20">
       <h1 className="text-5xl text-transform: capitalize m-10 bg-stone-600 text-white p-5 rounded-lg">
         {pokemon.name}
       </h1>
